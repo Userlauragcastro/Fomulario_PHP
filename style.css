@@ -1,0 +1,40 @@
+input[type = text],[type = date],[type = email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input[type = text]:focus,[type = date]:focus,[type = email]:focus{
+    border: 3px solid #555;
+}
+
+button[type = submit]{
+  background-color: rgb(204, 151, 193);
+  border: none;
+  color: rgb(17, 16, 16);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#formulario {
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+    border: 5px solid rgb(95, 4, 83);
+    margin: auto;
+    border-radius: 12px;
+    background-color: white;
+}
+
+html{
+    background-color: rgb(255, 201, 255);
+}
+
+h1{
+    color: white;
+}
